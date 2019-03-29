@@ -1,0 +1,1654 @@
+C	1. A deviation from the specified or expected behavior that is visible to end-users is called:
+a)an error
+b)a fault
+c)a failure
+d)a defect
+
+C	2. Regression testing should be performed:
+v)every week
+w)after the software has changed
+x)as often as possible
+y)when the environment has changed
+z)when the project manager says
+a)v & w are true, x, y & z are false
+b)w, x & y are true, v & z are false
+c)w & y are true, v, x & z are false
+d)w is true, v, x, y & z are false
+
+D	3. IEEE 829 test plan documentation standard contains all of the following except
+a)test items
+b)test deliverables
+c)test tasks
+d)test specifications
+
+D	4. When should testing be stopped?
+a)when all the planned tests have been run
+b)when time has run out
+c)when all faults have been fixed correctly
+d)it depends on the risks for the system being tested
+
+C	5. Order numbers on a stock control system can range between 10000 and 99999 inclusive.
+Which of the following inputs might be a result of designing tests for only valid equivalence
+classes and valid boundaries?
+a)1000, 50000, 99999
+b)9999, 50000, 100000
+c)10000, 50000, 99999
+d)10000, 99999, 100000
+
+A	6. Consider the following statements about early test design:
+i.early test design can prevent fault multiplication
+ii.faults found during early test design are more expensive to fix
+iii.early test design can find faults
+iv.early test design can cause changes to the requirements
+v.early test design normally takes more effort
+a)i, iii & iv are true; ii & v are false
+b)iii & iv are true; i, ii & v are false
+c)i, iii, iv & v are true; ii is false
+d)i & ii are true; iii, iv & v are false
+
+B	7. Non-functional system testing includes:
+a)testing to see where the system does not function correctly
+b)testing quality attributes of the system including performance and usability
+c)testing a system function using only the software required for that function
+d)testing for functions that should not exist
+
+A	8. Which of the following is NOT part of configuration management?
+a)auditing conformance to ISO 9000
+b)status accounting of configuration items
+c)identification of test versions
+d)controlled library access
+
+C	9. Which of the following is the main purpose of the integration strategy for integration testing
+in the small?
+a)to ensure that all of the small modules are tested adequately
+b)to ensure that the system interfaces to other systems and networks
+c)to specify which modules to combine when, and how many at once
+d)to specify how the software should be divided into modules
+
+D	10. What is the purpose of a test completion criterion?
+a)to know when a specific test has finished its execution
+b)to ensure that the test case specification is complete
+c)to set the criteria used in generating test inputs
+d)to determine when to stop testing
+
+B	11. Consider the following statements:
+i.an incident may be closed without being fixed.
+ii.incidents may not be raised against documentation.
+iii.the final stage of incident tracking is fixing.
+iv.the incident record does not include information on test environments.
+a)ii is true, i, iii and iv are false
+b)i is true, ii, iii and iv are false
+c)i and iv are true, ii and iii are false
+d)i and ii are true, iii and iv are false
+
+B	12. Given the following code, which statement is true about the minimum number of test
+cases required for full statement and branch coverage?
+Read p
+Read q
+IF p+q > 100 THEN
+Print "Large"
+ENDIF
+IF p > 50 THEN
+Print "p Large"
+ENDIF
+a)1 test for statement coverage, 3 for branch coverage
+b)1 test for statement coverage, 2 for branch coverage
+c)1 test for statement coverage, 1 for branch coverage
+d)2 tests for statement coverage, 2 for branch coverage
+
+D	13. Consider the following statements:
+i.100% statement coverage guarantees 100% branch coverage.
+ii.100% branch coverage guarantees 100% statement coverage.
+iii.100% branch coverage guarantees 100% decision coverage.
+iv.100% decision coverage guarantees 100% branch coverage.
+v.100% statement coverage guarantees 100% decision coverage.
+a)ii is True; i, iii, iv & v are False
+b)i & v are True; ii, iii & iv are False
+c)ii & iii are True; i, iv & v are False
+d)ii, iii & iv are True; i & v are False
+
+C	14. Functional system testing is:
+a)testing that the system functions with other systems
+b)testing that the components that comprise the system function together
+c)testing the end to end functionality of the system as a whole
+d)testing the system performs functions within specified response times
+
+D	15. Incidents would not be raised against:
+a)requirements
+b)documentation
+c)test cases
+d)improvements suggested by users
+
+C	16. Which of the following items would not come under Configuration Management?
+a)operating systems
+b)test documentation
+c)live data
+d)user requirement documents
+
+B	17. Maintenance testing is:
+a)updating tests when the software has changed
+b)testing a released system that has been changed
+c)testing by users to ensure that the system meets a business need
+d)testing to maintain business advantage
+
+C	18. What can static analysis NOT find?
+a)the use of a variable before it has been defined
+b)unreachable ("dead") code
+c)memory leaks
+d)array bound violations
+
+B	19. Which of the following techniques is NOT a black box technique?
+a)state transition testing
+b)LCSAJ
+c)syntax testing
+d)boundary value analysis
+
+A	20. Beta testing is:
+a)performed by customers at their own site
+b)performed by customers at the software developer's site
+c)performed by an Independent Test Team
+d)performed as early as possible in the lifecycle
+
+A	21. Given the following types of tool, which tools would typically be used by developers, and
+which by an independent system test team?
+i.static analysis
+ii.performance testing
+iii.test management
+iv.dynamic analysis
+a)developers would typically use i and iv; test team ii and iii
+b)developers would typically use i and iii; test team ii and iv
+c)developers would typically use ii and iv; test team i and iii
+d)developers would typically use i, iii and iv; test team ii
+
+D	22. The main focus of acceptance testing is:
+a)finding faults in the system
+b)ensuring that the system is acceptable to all users
+c)testing the system with other systems
+d)testing from a business perspective
+
+A	23. Which of the following statements about component testing is FALSE?
+a)black box test design techniques all have an associated test measurement technique
+b)white box test design techniques all have an associated test measurement technique
+c)cyclomatic complexity is not a test measurement technique
+d)black box test measurement techniques all have an associated test design technique
+
+D	24. Which of the following statements is NOT true?
+a)inspection is the most formal review process
+b)inspections should be led by a trained leader
+c)managers can perform inspections on management documents
+d)inspection is appropriate even when there are no written documents
+
+A	25. A typical commercial test execution tool would be able to perform all of the following,
+EXCEPT:
+a)calculating expected outputs
+b)comparison of expected outcomes with actual outcomes
+c)recording test inputs
+d)reading test values from a data file
+
+A	26. The difference between re-testing and regression testing is:
+a)re-testing ensures the original fault has been removed; regression testing looks for unexpected side-effects
+b)re-testing looks for unexpected side-effects; regression testing ensures the original fault has been removed
+c)re-testing is done after faults are fixed; regression testing is done earlier
+d)re-testing is done by developers; regression testing is done by independent testers
+
+C	27. Expected results are:
+a)only important in system testing
+b)only used in component testing
+c)most useful when specified in advance
+d)derived from the code
+
+B	28. What type of review requires formal entry and exit criteria, including metrics:
+a)walkthrough
+b)inspection
+c)management review
+d)post project review
+
+D	29. Which of the following uses Impact Analysis most?
+a)component testing
+b)non-functional system testing
+c)user acceptance testing
+d)maintenance testing
+
+C	30. What is NOT included in typical costs for an inspection process?
+a)setting up forms and databases
+b)analysing metrics and improving processes
+c)writing the documents to be inspected
+d)time spent on the document outside the meeting
+
+B	31. Which of the following is NOT a reasonable test objective:
+a)to find faults in the software
+b)to prove that the software has no faults
+c)to give confidence in the software
+d)to find performance problems
+
+A	32. Which expression best matches the following characteristics of the review processes:
+1.led by the author
+2.undocumented
+3.no management participation
+4.led by a moderator or leader
+5.uses entry and exit criteria
+s)inspection
+t)peer review
+u)informal review
+v)walkthrough
+a)s = 4 and 5, t = 3, u = 2, v = 1
+b)s = 4, t = 3, u = 2 and 5, v = 1
+c)s = 1 and 5, t = 3, u = 2, v = 4
+d)s = 4 and 5, t = 1, u= 2, v = 3
+
+D	33. Which of the following is NOT part of system testing?
+a)business process-based testing
+b)performance, load and stress testing
+c)usability testing
+d)top-down integration testing
+
+A	34. Which statement about expected outcomes is FALSE?
+a)expected outcomes are defined by the software's behaviour
+b)expected outcomes are derived from a specification, not from the code
+c)expected outcomes should be predicted before a test is run
+d)expected outcomes may include timing constraints such as response times
+
+B	35. The standard that gives definitions of testing terms is:
+a)ISO/IEC 12207
+b)BS 7925-1
+c)ANSI/IEEE 829
+d)ANSI/IEEE 729
+
+B	36. The cost of fixing a fault:
+a)is not important
+b)increases the later a fault is found
+c)decreases the later a fault is found
+d)can never be determined
+
+C	37. Which of the following is NOT included in the Test Plan document of the Test Documentation Standard?
+a)what is not to be tested
+b)test environment properties
+c)quality plans
+d)schedules and deadlines
+
+C	38. Could reviews or inspections be considered part of testing?
+a)no, because they apply to development documentation
+b)no, because they are normally applied before testing
+c)yes, because both help detect faults and improve quality
+d)yes, because testing includes all non-constructive activities
+
+B	39. Which of the following is not part of performance testing?
+a)measuring response times
+b)recovery testing
+c)simulating many users
+d)generating many transactions
+
+A	40. Error guessing is best used:
+a)after more formal techniques have been applied
+b)as the first approach to deriving test cases
+c)by inexperienced testers
+d)after the system has gone live
+
+b	1. The process starting with the terminal modules is called -
+a. Top-down integration
+b. Bottom-up integration
+c. None of the above
+d. Module integration
+
+a	2. The inputs for developing a test plan are taken from
+a. Project plan
+b. Business plan
+c. Support plan
+d. None of the above
+
+c	3. If an expected result is not specified then:
+a. We cannot run the test
+b. It may be difficult to repeat the test
+c. It may be difficult to determine if the test has passed or failed
+d. We cannot automate the user inputs
+
+d	4. Which of the following could be a reason for a failure
+1) Testing fault
+2) Software fault
+3) Design fault
+4) Environment Fault
+5) Documentation Fault
+a. 2 is a valid reason; 1,3,4 & 5 are not
+b. 1,2,3,4 are valid reasons; 5 is not
+c. 1,2,3 are valid reasons; 4 & 5 are not
+d. All of them are valid reasons for failure
+
+b	5. Test are prioritized so that:
+a. You shorten the time required for testing
+b. You do the best testing in the time available
+c. You do more effective testing
+d. You find more faults
+
+a	6. Which of the following is not a static testing technique
+a. Error guessing
+b. Walkthrough
+c. Data flow analysis
+d. Inspections
+
+d	7. Which of the following statements about component testing is not true?
+a. Component testing should be performed by development
+b. Component testing is also known as isolation or module testing
+c. Component testing should have completion criteria planned
+d. Component testing does not involve regression testing
+
+c	8. During which test activity could faults be found most cost effectively?
+a. Execution
+b. Design
+c. Planning
+d. Check Exit criteria completion
+
+b	9. Which, in general, is the least required skill of a good tester?
+a. Being diplomatic
+b. Able to write software
+c. Having good attention to detail
+d. Able to be relied on
+
+d	10. The purpose of requirement phase is
+a. To freeze requirements
+b. To understand user needs
+c. To define the scope of testing
+d. All of the above
+
+b	11. Verification is:
+a. Checking that we are building the right system
+b. Checking that we are building the system right
+c. Performed by an independent test team
+d. Making sure that it is what the user really wants
+
+b	12. A regression test:
+a. Will always be automated
+b. Will help ensure unchanged areas of the software have not been affected
+c. Will help ensure changed areas of the software have not been affected
+d. Can only be run during user acceptance testing
+
+c	13. Function/Test matrix is a type of
+a. Interim Test report
+b. Final test report
+c. Project status report
+d. Management report
+
+b	14. Defect Management process does not include
+a. Defect prevention
+b. Deliverable base-lining
+c. Management reporting
+d. None of the above
+
+b	15. What is the difference between testing software developed by contractor outside your country, versus testing software developed by a contractor within your country?
+a. Does not meet people needs
+b. Cultural difference
+c. Loss of control over reallocation of resources
+d. Relinquishments of control
+
+b	16. Software testing accounts to what percent of software development costs?
+a. 10-20
+b. 40-50
+c. 70-80
+d. 5-10
+
+b	17. A reliable system will be one that:
+a. Is unlikely to be completed on schedule
+b. Is unlikely to cause a failure
+c. Is likely to be fault-free
+d. Is likely to be liked by the users
+
+b	18. How much testing is enough
+a. This question is impossible to answer
+b. The answer depends on the risks for your industry, contract and special requirements
+c. The answer depends on the maturity of your developers
+d. The answer should be standardized for the software development industry
+
+d	19. Which of the following is not a characteristic for Testability?
+a. Operability
+b. Observability
+c. Simplicity
+d. Robustness
+
+a	20. Cyclomatic Complexity method comes under which testing method.
+a. White box
+b. Black box
+c. Green box
+d. Yellow box
+
+d	21. Which of these can be successfully tested using Loop Testing methodology?
+a. Simple Loops
+b. Nested Loops
+c. Concatenated Loops
+d. All of the above
+
+b	22. To test a function, the programmer has to write a ______, which calls the function and
+passes it test data.
+a. Stub
+b. Driver
+c. Proxy
+d. None of the above
+
+c	23. Equivalence partitioning is:
+a. A black box testing technique used only by developers
+b. A black box testing technique than can only be used during system testing
+c. A black box testing technique appropriate to all levels of testing
+d. A white box testing technique appropriate for component testing
+
+a	24. When a new testing tool is purchased, it should be used first by:
+a. A small team to establish the best way to use the tool
+b. Everyone who may eventually have some use for the tool
+c. The independent testing team
+d. The vendor contractor to write the initial scripts
+
+d	25. Inspections can find all the following except
+a. Variables not defined in the code
+b. Spelling and grammar faults in the documents
+c. Requirements that have been omitted from the design documents
+d. How much of the code has been covered
+a	1. What is failure?
+A. Deviation from expected result to actual result
+B. Defect in the software.
+C. Error in the program code.
+D. Fault in the system.
+
+b	2. People who don't participate in technical reviews
+A. Analysts
+B. Management
+C. Developers
+D. Testers
+
+c	3. What type of testing is done to supplement the rigorous testing?
+A. Regression testing.
+B. Integration testing.
+C. Error Guessing
+D. System testing.
+
+d	4. Capture and replay facilities are least likely to be used to ....
+A. Performance testing
+B. Recovery testing
+C. GUI testing
+D. User requirements.
+
+b	5. What is the smallest number of test cases required to Provide 100% branch coverage?
+If(x>y) x=x+1;
+else y=y+1;
+while(x>y)
+{
+y=x*y; x=x+1;
+}
+A. 1
+B. 2
+C. 3
+D. 4
+
+b	6. Cyclomatic complexity is used to calculate
+A. number of independent paths in the basis set of a program
+B. number of binary decisions + 1
+C. upper bound for the number of tests that must be conducted to ensure that all statements have been executed at least once
+D. number of branches and decisions
+
+d	7. If a candidate is given an exam of 40 questions, should get 25 marks to pass (61%) and should get 80% for distinction, what is equivalence class.
+A. 23, 24, 25
+B. 0, 12, 25
+C. 30, 36, 39
+D. 32,37,40
+
+a	8. Match the following:
+1. Test estimation
+2. Test control
+3. Test monitoring
+a. measures of tracking process
+b. effort required to perform activities
+c. reallocation of resources
+A. 1-b, 2-c, 3-a
+B. 1-b, 2-a, 3-c
+C. 1-c, 2-a, 3-b
+D. 1-a, 2-b, 3-c
+
+d	9. One of the following is not a part of white box testing as per BS7925-II standards.
+A. Random testing
+B. Data Flow testing.
+C. Statement testing.
+D. Syntax testing.
+
+c	10. Exclusive use of white box testing in a test-phase will:
+A. Ensure the test item is adequately tested.
+B. Make the need for black-box testing redundant.
+C. Run the risk that the requirements are not satisfied.
+D. Suffices for the unit testing phase.
+
+b	11. Match the following.
+1. Configuration identification
+2. Configuration control
+3. Status reporting
+4. Configuration auditing
+a. Maintains of CI's in a library
+b. Checks on the contents of the library
+c. Function recording and tracking problems.
+d. Requires the all CI's and their versions in the system are known
+A. 1-d, 2-c, 3-d, 4-a.
+B. 1-d, 2-a, 3-c, 4-b.
+C. 1-a, 2-b, 3-d, 4-c.
+D. 1-c, 2-b, 3-a, 4-d.
+
+c	12. Cost of the reviews will not include.
+A. Review process itself
+B. Metrics analysis
+C. Tool support.
+D. Process improvement.
+
+c	13. What type of testing will you perform on internet banking solution?
+A. System integration
+B. Functional testing
+C. Non-functional testing.
+D. Requirements testing
+
+a	14. Which tool will be used to test the flag memory leaks and unassigned pointers
+A. Dynamic analysis tool
+B. Static Analysis tool.
+C. Maintenance tool.
+D. Configuration tool.
+
+d	15. Which of the following is not included in Test Plan.
+A. Features to be tested.
+B. Environmental needs.
+C. Suspension criteria.
+D. Expected results.
+
+a	16. A piece of software has been given....what tests in the Following will you perform?
+1) Test the areas most critical to business processes
+2) Test the areas where faults will be maximum
+3) Test the easiest functionalities
+A. 1&2 are true and 3 is false.
+B. 1,2&3 are true.
+C. 1 is true, 2&3 are false.
+D. 1&2 are false, 3 is true.
+
+d	17. Amount of testing performed will not depend on
+A. Risks involved
+B. Contractual requirements
+C. Legal requirements
+D. Test data.
+
+d	18. Which of the following provides the biggest potential cost saving from use of CAST?
+A. Test management
+B. Test design
+C. Test planning
+D. Test execution
+
+d	19. Testing is not done to ....
+A. Find faults
+B. Improve quality
+C. Check user friendliness.
+D. Improve software accuracy
+
+c	20. Software quality is not relevant to ...
+A. Correctness
+B. Usability
+C. Viability
+D. Reusability.
+
+c	21. Which of the following are false?
+A. Incidents should always be investigated and resolved.
+B. Incidents occur when expected and actual results differ.
+C. Incidents can be analyzed to assist in test process improvement.
+D. An incident can be raised against documentation.
+
+a	22. Which of the following is a type of non-functional testing?
+A. Usability testing.
+B. Statement Coverage.
+C. Dataflow testing.
+D. Cause-effect graphing.
+
+c	23. To make a test effective it is most important that:
+A. It is easy to execute.
+B. It is designed to detect faults if present.
+C. The expected outcome is specified before execution.
+D. It is unlikely to delay progress.
+
+d	24. Error guessing is:
+A. An appropriate way of deriving system tests.
+B. Only used if good requirements are not available.
+C. Only used when good requirements are available.
+D. The most appropriate way of deriving system tests.
+
+c	25. A standard for software testing terminology is:
+A. IEEE 802.11
+B. ISO 9001
+C. BS 7925-1
+D. BS 7925-2
+
+b	26. Which of the following is true of V-model?
+A. It includes the verification of designs.
+B. It states that modules are tested against user requirements.
+C. It specifies the test techniques to be used.
+D. It only models the testing phase.
+
+c	27. Which of the following is NOT part of a high level test plan?
+A. Functions not to be tested.
+B. Environmental requirements.
+C. Analysis of Specifications.
+D. Entry and Exit criteria.
+
+b	28. When do you stop testing?
+A. When the specified number of faults are found.
+B. When the test completion criteria are met.
+C. When all high and medium priority tests are complete.
+D. When all statements have been executed.
+
+d	29. Which of the following is least important in test management?
+A. Estimating test duration.
+B. Incident Management.
+C. Configuration Management.
+D. De-bugging.
+
+a	30. How would you estimate the amount of re-testing likely to be required?
+A. Metrics from previous similar projects.
+B. Discussions with the development team.
+C. Time allocated for regression testing.
+D. Both A & B.
+
+a	31. Which of the following statements is true of static analysis:
+A. Compiling code is not a form of static analysis.
+B. Static analysis need not be performed before imperative code is executed.
+C. Static analysis can find faults that are hard to find with dynamic testing.
+D. Extensive statistic analysis will not be needed if white- Box testing is to be performed.
+
+c	32. Regression testing always involves
+A. Testing whether a known software fault been fixed.
+B. Executing a large number of different tests.
+C. Testing whether modifications have introduced adverse side effects.
+D. Using a test automation tool.
+
+c	33. A field failure occurs when multiple users access a system. Which of the following is true?
+A. This is an acceptable risk of a multi-user system.
+B. Insufficient functional testing has been performed.
+C. This indicates an important non-functional requirement was not specified and tested.
+D. It is not possible to test against such events prior to release.
+
+a	34. Integration testing in the large involves:
+A. Testing the system when combined with other systems.
+B. Testing a sub-system using stubs and drivers.
+C. Testing a system with a large number of users.
+D. Combing software components and testing them in one go.
+
+b	35. Data flow analysis studies:
+A. How rapidly data is transferred through a program.
+B. The rate of change of data values as a program executes.
+C. The use of data on paths through the code.
+D. The intrinsic complexity of the code.
+
+c	36. The oracle assumption is that:
+A. There is some existing system against which test output may be checked.
+B. The tester knows everything about the software under test.
+C. The tester can routinely identify the correct outcome of a test.
+D. Tools are used to check the results of testing.
+
+d	37. 
+An employee has $4000 of salary tax free
+The next $1500 is taxed at 10%
+The next $28000 is taxed at 22%
+Any further amount is taxed at 40%
+
+To the nearest $ which of these is a valid Boundary Value Analysis test case?
+A. $1500
+B. $32001
+C. $28000
+D. $33501
+
+a	38.
+An employee has $4000 of salary tax free
+The next $1500 is taxed at 10%
+The next $28000 is taxed at 22%
+Any further amount is taxed at 40%
+ 
+Which of these groups of numbers would fall into the same equivalence class?
+A. $5800; $28000; $32000
+B. $0; $200; $4200
+C. $5200; $5500; $28000
+D. $28001; $32000; $35000
+
+a	39. Which of the following is NOT a characteristic of User Acceptance Testing?
+A. Use of automated test execution tools.
+B. Testing performed by users.
+C. Testing against acceptance test criteria.
+D. Integration of system with user documentation.
+
+b	40. For software to be reliable it must:
+A. Be easy to maintain.
+B. Be unlikely to cause a failure.
+C. Never fail under any circumstances.
+D. Be written according to coding standards
+b	1. Which of the following is true
+a. Testing is the same as quality assurance
+b. Testing is a part of quality assurance
+c. Testing is not a part of quality assurance
+d. Testing is same as debugging
+
+c	2. Why is testing necessary?
+a. Because testing is good method to make there are not defects in the software
+b. Because verification and validation are nto enough to get to know the quality of the software
+c. Because testing measures the quality of the software system and helps to increase the quality
+d. Because testing finds more defects than reviews and inspections.
+
+c	3. Integration testing has following characteristics
+I. It can be done in incremental manner
+II. It is always done after system testing
+III. It includes functional tests
+IV. It includes non-functional tests
+a. I, II and III are correct
+b. I is correct
+c. I, III and IV are correct
+d. I, II and IV are correct
+
+d	4. 
+A number of critical bugs are fixed in software. All the bugs are in one module, related to reports. The test manager decides to do regression testing only on the reports module.
+a. The test manager should do only automated regression testing.
+b. The test manager is justified in her decision because no bug has been fixed in other modules
+c. The test manager should only do confirmation testing. There is no need to do regression testing
+d. Regression testing should be done on other modules as well because fixing one module may affect other modules
+
+b	5. Which of the following is correct about static analysis tools?
+a. Static analysis tools are used only by developers
+b. Compilers may offer some support for static analysis
+c. Static analysis tools help find failures rather than defects
+d. Static analysis tools require execution of the code to analyze the coverage
+
+b	6. In a flight reservation system, the number of available seats in each plane model is an input.
+A plane may have any positive number of available seats, up to the given capacity of the plane.
+Using Boundary Value analysis, a list of available - seat values were generated. Which of the
+following lists is correct?
+a. 1, 2, capacity -1, capacity, capacity plus 1
+b. 0, 1, capacity, capacity plus 1
+c. 0, 1, 2, capacity plus 1, a very large number
+d. 0, 1, 10, 100, capacity, capacity plus one
+
+a	7. For the code fragment given below, which answer correctly represents minimum tests
+required for statement and branch coverage respectively?
+Discount rate=1;
+Fare = 1000;
+If ((person == "senior citizen") and ("travel month = January"))
+Bonuspoints = 100+Bonuspoints
+If (class=="first")
+discountRate = .5;
+Fare = fare * discountRate;
+a. Statement Coverage = 1, Branch Coverage = 2
+b. Statement Coverage = 2, Branch Coverage = 2
+c. Statement Coverage = 1, Branch Coverage = 3
+d. Statement Coverage = 2, Branch Coverage = 4
+
+a	8. Which of the following is correct about static analysis tools
+a. They help you find defects rather than failures
+b. They are used by developers only
+c. They require compilation of code
+d. They are useful only for regulated industries
+
+a	9. Acme Inc. decides to use functional test execution automation tool for testing GUI of their product. The GUI is expected to change frequently. Acme Inc. has put some of the manual testers through a 3 day training program on how to use the tool. Which of the following is likely to be true?
+a. Automation is likely to fail because of frequent changes and lack of experience
+b. Automation is likely to fail because of GUI automation is not the right way to automate
+c. Automation is likely to succeed because automation is very useful for frequent changes
+d. Automation is likely to succeed because the team has been trained on tool.
+
+c	10. In foundation level syllabus you will find the main basic principles of testing. Which of the following sentences describes one of these basic principles?
+a. Complete testing of software is attainable if you have enough resources and test tools
+b. With automated testing you can make statements with more confidence about the quality of a product than with manual testing
+c. For a software system, it is not possible, under normal conditions, to test all input and output combinations.
+d. A goal of testing is to show that the software is defect free.
+
+b	11. Which of the following statements contains a valid goal for a functional test set?
+a. A goal is that no more failures will result from the remaining defects
+b. A goal is to find as many failures as possible so that the cause of the failures can be identified and fixed
+c. A goal is to eliminate as much as possible the causes of defects
+d. A goal is to fulfil all requirements for testing that are defined in the project plan.
+
+a	12. In system testing...
+a. .. Both functional and non-functional requirements are to be tested
+b. ... Only functional requirements are tested; non-functional requirements are validated in
+a review
+c. ... Only non-functional requirements are tested; functional requirements are validated in
+a review
+d. ... Only requirements which are listed in the specification document are to be tested
+
+b	13. Which of the following activities differentiate a walkthrough from a formal review?
+a. A walkthrough does not follow a defined process
+b. For a walkthrough individual preparation by the reviewers is optional
+c. A walkthrough requires meeting
+d. A walkthrough finds the causes of failures, while formal review finds the failures
+
+b	14. Why does the boundary value analysis provide good test cases?
+a. Because it is an industry standard
+b. Because errors are frequently made during programming of the different cases near the 'edges' of the range of values
+c. Because only equivalence classes that are equal from a functional point of view are considered in the test cases
+d. Because the test object is tested under maximal load up to its performance limits
+
+c	15. Which of the following list contains only non-functional tests?
+a. Interoperability (compatibility) testing, reliability testing, performance testing
+b. System testing, performance testing
+c. Load testing, stress testing, component testing, portability testing
+d. Testing various configurations, beta testing, load testing
+
+c	16. The following list contains risks that have been identified for a software product to be developed. Which of these risks is an example of a product risk?
+a. Not enough qualified testers to complete the planned tests
+b. Software delivery is behind schedule
+c. Threat to a patient's life
+d. 3rd party supplier does not supply as stipulated
+
+d	17. Which set of metrics can be used for monitoring of the test execution?
+a. Number of detected defects, testing cost;
+b. Number of residual defects in the test object.
+c. Percentage of completed tasks in the preparation of test environment; test cases prepared
+d. Number of test cases run / not run; test cases passed / failed
+
+c	18. Which of the following statements is correct?
+a. Static analysis tools produce statistics during program execution
+b. Configuration management systems allow us to provide accurate defect statistics of different configurations
+c. Stress testing tools examine the behaviour of the test object at or beyond full load
+d. Performance measurement tools can be used in all phases of software life-cycle
+
+a	19. What makes an inspection different from other review types?
+a. It is led by a trained leader, uses formal entry and exit criteria and checklists
+b. It is led by the author of the document to be inspected
+c. It can only be used for reviewing design and code
+d. It is led by the author, uses checklists, and collects data for improvement
+
+a	20. Which of the following is a valid collection of equivalence classes for the following
+problem: An integer field shall contain values from and including 1 to and including 15
+a. Less than 1, 1 through 15, more than 15
+b. Negative numbers, 1 through 15, above 15
+c. Less than 1, 1 through 14, more than 15
+d. Less than 0, 1 through 14, 15 and more
+
+d	21. Which of the following is a valid collection of equivalence classes for the following
+problem: Paying with credit cards shall be possible with Visa, Master and Amex cards only.
+a. Visa, Master, Amex;
+b. Visa, Master, Amex, Diners, Keycards, and other option
+c. Visa, Master, Amex, any other card, no card
+d. No card, other cards, any of Visa - Master - Amex
+
+b	22. Which of the following techniques are black box techniques?
+a. State transition testing, code testing, agile testing
+b. Equivalence partitioning, state transition testing, decision table testing
+c. System testing, acceptance testing, equivalence partitioning
+d. System integration testing, system testing, decision table testing
+
+c	23. A defect management system shall keep track of the status of every defect registered and enforce the rules about changing these states. If your task is to test the status tracking, which method would be best?
+a. Logic-based testing
+b. Use-case-based testing
+c. State transition testing
+d. Systematic testing according to the V-model
+
+b	24. If a program is tested and 100% condition coverage is achieved, which of the following
+coverage criteria is then guaranteed to be achieved?
+a. 100% branch coverage
+b. 100% condition coverage and 100% statement coverage
+c. Equivalence class and boundary value coverage
+d. No other white box coverage criterion is guaranteed to be fulfilled 100%
+
+a	25. This part of a program is given:-
+WHILE (condition A) Do B
+END WHILE
+How many decisions should be tested in this code in order to achieve 100% decision coverage?
+a. 2
+b. Indefinite
+c. 1
+d. 4
+
+a	26. Why can be tester dependent on configuration management?
+a. Because configuration management assures that we know the exact version of the testware and the test object
+b. Because test execution is not allowed to proceed without the consent of the change control board
+c. Because changes in the test object are always subject to configuration management
+d. Because configuration management assures the right configuration of the test tools
+
+a	27. What test items should be put under configuration management?
+a. The test object, the test material and the test environment
+b. The problem reports and the test material
+c. Only the test object. The test cases need to be adapted during agile testing
+d. The test object and the test material
+
+b	28. Why is successful test execution automation difficult?
+a. Because the tools for automated testing require too much effort for learning
+b. Because the maintenance of the test system is difficult
+c. Because the test robot tools are restricted in their ability to recognize outputs
+d. Because the test robot needs to be supported by a test management.
+
+b	29. Which of the following can be root cause of a bug in a software product?
+(I) The project had incomplete procedures for configuration management.
+(II) The time schedule to develop a certain component was cut.
+(III) the specification was unclear
+(IV) Use of the code standard was not followed up
+(V) The testers were not certified
+a. (I) and (II) are correct
+b. (I) through (IV) are correct
+c. (III) through (V) are correct
+d. (I), (II) and (IV) are correct
+
+a	30. Which of the following is most often considered as components interface bug?
+a. For two components exchanging data, one component used metric units, the other one used British units
+b. The system is difficult to use due to a too complicated terminal input structure
+c. The messages for user input errors are misleading and not helpful for understanding the input error cause
+d. Under high load, the system does not provide enough open ports to connect to
+
+b	31. Which of the following project inputs influence testing?
+(I) contractual requirements
+(II) legal requirements
+(III) Industry standards
+(IV) application risk
+(V) project size
+a. (I) through (III) are correct
+b. All alternatives are correct
+c. (II) and (V) are correct
+d. (I), (III) and (V) are correct
+
+b	32. If a program is tested and 100% branch coverage is achieved, which of the following
+coverage criteria is then guaranteed to be achieved?
+a. 100% Equivalence class coverage
+b. 100% Condition coverage and 100% Statement coverage
+c. 100% Statement coverage
+d. 100% Multiple condition coverage
+
+c	33. This part of a program is given:-
+WHILE (condition A) Do B
+END WHILE
+How many paths should be tested in this code in order to achieve 100% path coverage?
+a. One
+b. Indefinite
+c. Two
+d. Four
+
+a	34. What is the purpose of test exit criteria in the test plan?
+a. To specify when to stop the testing activity
+b. To set the criteria used in generating test inputs
+c. To ensure that the test case specification is complete
+d. To know when a specific test has finished its execution
+
+d	35. Which of the following items need not to be given in an incident report?
+a. The version number of the test object
+b. Test data and used environment
+c. Identification of the test case that failed
+d. The location and instructions on how to correct the fault
+
+a	36. V-Model is:
+a. A software development model that illustrates how testing activities integrate with software development phases
+b. A software life-cycle model that is not relevant for testing
+c. The official software development and testing life-cycle model of ISTQB
+d. A testing life cycle model including unit, integration, system and acceptance phases
+
+a	37. Why is incremental integration preferred over "big bang" integration?
+a. Because incremental integration has better early defects screening and isolation ability
+b. Because "big bang" integration is suitable only for real time applications
+c. Incremental integration is preferred over "Big Bang Integration" only for "bottom up" development model
+d. Because incremental integration can compensate for weak and inadequate component testing
+
+c	38. Maintenance testing is:
+a. Testing management
+b. Synonym of testing the quality of service
+c. Triggered by modifications, migration or retirement of existing software
+d. Testing the level of maintenance by the vendo
+
+b	39. A test engineer is testing a Video Player (VCR), and logs the following report:
+Title: Fast Forward stops after 2 minutes. It happens every time
+Expected result: Fast forward continues till the end of the tape
+Severity: High
+Priority: Urgent
+What important information did the engineer leave out?
+a. Identification (Software and hardware) of the VCR
+b. Actual result
+c. History of the report
+d. Ideas for the test case improvement
+
+d	40. Why is it necessary to define a Test Strategy?
+a. As there are many different ways to test software, thought must be given to decide what will be the most effective way to test the project on hand.
+b. Starting testing without prior planning leads to chaotic and inefficient test project
+c. A strategy is needed to inform the project management how the test team will schedule the test-cycles
+d. Software failure may cause loss of money, time, business reputation, and in extreme cases injury and death. It is therefore critical to have a proper test strategy in place.
+B	1. Designing the test environment set-up and identifying any required infrastructure and tools are a part of which phase
+a) Test Implementation and execution
+b) Test Analysis and Design
+c) Evaluating the Exit Criteria and reporting
+d) Test Closure Activities
+
+A	2. Test Implementation and execution has which of the following major tasks?
+i. Developing and prioritizing test cases, creating test data, writing test 
+procedures and optionally preparing the test harnesses and writing automated test scripts.
+ii. Creating the test suite from the test cases for efficient test execution.
+iii. Verifying that the test environment has been set up correctly.
+iv. Determining the exit criteria.
+a) i,ii,iii are true and iv is false
+b) i,,iv are true and ii is false
+c) i,ii are true and iii,iv are false
+d) ii,iii,iv are true and i is false
+
+B	3. A Test Plan Outline contains which of the following :-
+i. Test Items
+ii. Test Scripts
+iii. Test Deliverables
+iv. Responsibilities
+a) i,ii,iii are true and iv is false
+b) i,iii,iv are true and ii is false
+c) ii,iii are true and i and iv are false
+d) i,ii are false and iii , iv are true
+
+A	4. One of the fields on a form contains a text box which accepts numeric values in the range of
+18 to 25. Indentify the invalid Equivalance class
+a) 17
+b) 19
+c) 24
+d) 21
+
+C	5. In a Examination a candidate has to score minimum of 24 marks in order to clear the exam.
+The maximum that he can score is 40 marks. Identify the Valid Equivalance values if the
+student clears the exam.
+a) 22,23,26
+b) 21,39,40
+c) 29,30,31
+d) 0,15,22
+
+A	6. Which of the following statements regarding static testing is false:
+a) static testing requires the running of tests through the code
+b) static testing includes desk checking
+c) static testing includes techniques such as reviews and inspections
+d) static testing can give measurements such as cyclomatic complexity
+
+B	7. Verification involves which of the following :-
+i. Helps to check that we have built product right.
+ii. Helps to check that we have built the right product.
+iii. Helps in developing the product
+iv. Monitoring tool wastage and obsoleteness.
+a) Options i,ii,iii,iv are true.
+b) i is true and ii,iii,iv are false
+c) i,ii,iii are true and iv is false
+d) ii is true and i,iii,iv are false.
+
+A	8. Component Testing is also called as :-
+i. Unit Testing
+ii. Program Testing
+iii. Module Testing
+iv. System Component Testing .
+a) i,ii,iii are true and iv is false
+b) i,ii,iii,iv are false
+c) i,ii,iv are true and iii is false
+d) all of above is true
+
+A	9. Link Testing is also called as :
+a) Component Integration testing
+b) Component System Testing
+c) Component Sub System Testing
+d)Maintenance testing
+
+C	10. What is the expected result for each of the following test cases?
+ Rule 1 Rule 2 Rule 3 Rule 4
+Conditions
+Indian resident? False True True True
+Age between 18 - 55?Don't care False True True
+Married? Don't care Don't care False True
+Actions
+Issue Memebership? False False True True
+Offer 10% discount? False False True False
+A.TC1: Anand is a 32 year old married, residing in Kolkatta.
+B.TC3: Attapattu is a 65 year old married person, residing in Colombo.
+a. A - Issue membership, 10% discount, B - Issue membership, offer no discount. B
+b. A - Don't Issue membership, B - Don't offer discount. 
+c. A - Issue membership, no discount, B - Don't Issue membership.
+d. Issue membership, no discount, B- Issue membership with 10% discount.
+
+A	11. Methodologies adopted while performing Maintenance Testing:-
+a) Breadth Test and Depth Test
+b) Retesting
+c) Confirmation Testing
+d) Sanity Testing
+
+B	12. Which of the following is true about Formal Review or Inspection:-
+i. Led by Trained Moderator (not the author).
+ii. No Pre Meeting Preparations
+iii. Formal Follow up process.
+iv. Main Objective is to find defects
+a) ii is true and i,iii,iv are false
+b) i,iii,iv are true and ii is false
+c) i,iii,iv are false and ii is true
+d) iii is true and I,ii,iv are false
+
+C	13. The Phases of formal review process is mentioned below arrange them in the correct order.
+i. Planning
+ii. Review Meeting
+iii. Rework
+iv. Individual Preparations
+v. Kick Off
+vi. Follow Up
+a) i,ii,iii,iv,v,vi
+b) vi,i,ii,iii,iv,v
+c) i,v,iv,ii,iii,vi
+d) i,ii,iii,v,iv,vi
+
+C	14. Consider the following state transition diagram of a two-speed hair dryer, which is operated by pressing its one button. The first press of the button turns it on to Speed 1, second press to Speed 2 and the third press turns it off. Which of the following series of state transitions below will provide 0-switch coverage?
+a. A,C,B
+b. B,C,A
+c. A,B,C
+d. C,B,A
+
+A	15. White Box Techniques are also called as :-
+a) Structural Testing
+b) Design Based Testing
+c) Error Guessing Technique
+d) Experience Based Technique
+
+B	16. What is an equivalence partition (also known as an equivalence class)?
+a) A set of test cases for testing classes of objects
+b) An input or output range of values such that only one value in the range becomes a test case
+c) An input or output range of values such that each value in the range becomes a test case
+d) An input or output range of values such that every tenth value in the range becomes a test case.
+
+A	17. The Test Cases Derived from use cases
+a) Are most useful in uncovering defects in the process flows during real world use of the system
+b) Are most useful in uncovering defects in the process flows during the testing use of the system
+c) Are most useful in covering the defects in the process flows during real world use of the system
+d) Are most useful in covering the defects at the Integration Level
+
+A	18. Exhaustive Testing is
+a) Is impractical but possible
+b) Is practically possible
+c) Is impractical and impossible
+d) Is always possible
+
+D	19. Which of the following is not a part of the Test Implementation and Execution Phase
+a) Creating test suites from the test cases
+b) Executing test cases either manually or by using test execution tools
+c) Comparing actual results
+d) Designing the Tests
+
+D	20. Which of the following techniques is NOT a White box technique?
+a) Statement Testing and coverage
+b) Decision Testing and coverage
+c) Condition Coverage
+d) Boundary value analysis
+
+A	21. A Project risk includes which of the following :
+a) Organizational Factors
+b) Poor Software characteristics
+c) Error Prone software delivered.
+d) Software that does not perform its intended functions
+
+B	22. In a risk-based approach the risks identified may be used to :
+i. Determine the test technique to be employed
+ii. Determine the extent of testing to be carried out
+iii. Prioritize testing in an attempt to find critical defects as early as possible.
+iv. Determine the cost of the project
+a) ii is True; i, iii, iv & v are False
+b) i,ii,iii are true and iv is false
+c) ii & iii are True; i, iv are False
+d) ii, iii & iv are True; i is false
+
+B	23. Which of the following is the task of a Tester?
+i. Interaction with the Test Tool Vendor to identify best ways to leverage test tool on the project.
+ii. Prepare and acquire Test Data
+iii. Implement Tests on all test levels, execute and log the tests.
+iv. Create the Test Specifications
+a) i, ii, iii is true and iv is false
+b) ii,iii,iv is true and i is false
+c) i is true and ii,iii,iv are false
+d) iii and iv is correct and i and ii are incorrect
+
+B	24. The Planning phase of a formal review includes the following :-
+a) Explaining the objectives
+b) Selecting the personnel, allocating roles.
+c) Follow up
+d) Individual Meeting preparations
+
+B	25. A Person who documents all the issues, problems and open points that were identified during a formal review.
+a) Moderator.
+b) Scribe
+c) Author
+d) Manager
+
+B	26. Who are the persons involved in a Formal Review :-
+i. Manager
+ii. Moderator
+iii. Scribe / Recorder
+iv. Assistant Manager
+a) i,ii,iii,iv are true
+b) i,ii,iii are true and iv is false.
+c) ii,iii,iv are true and i is false.
+d) i,iv are true and ii, iii are false.
+
+A	27. Which of the following is a Key Characteristics of Walk Through
+a) Scenario , Dry Run , Peer Group
+b) Pre Meeting Preparations
+c) Formal Follow Up Process
+d) Includes Metrics
+
+C	28. What can static analysis NOT find?
+a) the use of a variable before it has been defined
+b) unreachable ("dead") code
+c) memory leaks
+d) array bound violations
+
+D	29. Incidents would not be raised against:
+a) requirements
+b) documentation
+c) test cases
+d) improvements suggested by users
+
+A	30. A Type of functional Testing, which investigates the functions relating to detection of threats, such as virus from malicious outsiders.
+a) Security Testing
+b) Recovery Testing
+c) Performance Testing
+d) Functionality Testing
+
+B	31. Which of the following is not a major task of Exit criteria?
+a) Checking test logs against the exit criteria specified in test planning.
+b) Logging the outcome of test execution.
+c) Assessing if more tests are needed.
+d) Writing a test summary report for stakeholders.
+
+A	32. Testing where in we subject the target of the test , to varying workloads to measure and evaluate the performance behaviors and ability of the target and of the test to continue to function properly under these different workloads.
+a) Load Testing
+b) Integration Testing
+c) System Testing
+d) Usability Testing
+
+B	33. Testing activity which is performed to expose defects in the interfaces and in the
+interaction between integrated components is :-
+a) System Level Testing
+b) Integration Level Testing
+c) Unit Level Testing
+d) Component Testing
+
+C	34. Static analysis is best described as:
+a) The analysis of batch programs.
+b) The reviewing of test plans.
+c) The analysis of program code.
+d) The use of black box testing.
+
+C	35. One of the fields on a form contains a text box which accepts alpha numeric values. Identify the Valid Equivalence class
+a) BOOK
+b) Book
+c) Boo01k
+d) book
+
+A	36. Reviewing the test Basis is a part of which phase
+a) Test Analysis and Design
+b) Test Implementation and execution
+c) Test Closure Activities
+d) Evaluating exit criteria and reporting
+
+B	37. Reporting Discrepancies as incidents is a part of which phase :-
+a) Test Analysis and Design
+b) Test Implementation and execution
+c) Test Closure Activities
+d) Evaluating exit criteria and reporting
+
+C	38. Which of the following items would not come under Configuration Management?
+a) operating systems
+b) test documentation
+c) live data
+d) user requirement document
+
+C	39. Handover of Testware is a part of which Phase
+a) Test Analysis and Design
+b) Test Planning and control
+c) Test Closure Activities
+d) Evaluating exit criteria and reporting
+
+C	40. The Switch is switched off once the temperature falls below 18 and then it is turned on when the temperature is more than 21. When the temperature is more than 21. Identify the Equivalance values which belong to the same class.
+a) 12,16,22
+b) 24,27,17
+c) 22,23,24
+d) 14,15,19
+
+A	Q. 1: Given the following state transition table Which of the test cases below will cover the following series of state transitions? S1 SO S1 S2 SO
+
+
+A. D, A, B, C. 
+B. A, B, C, D. 
+C. D, A, B.
+D. A, B, C.
+
+C	Q. 2: From a Testing perspective, what are the MAIN purposes of Configuration Management?:
+
+i) Identifying the version of software under test. ii) Controlling the version of testware items.
+iii) Developing new testware items.
+iv) Tracking changes to testware items.
+v) Analysing the need for new testware items.
+
+A. ii, iv and v.
+B. ii, iii and iv.i, 
+C. i, ii and iv.
+D. i, iii and v.
+
+A	Q. 3: Which of the following is a MAJOR task of test planning?
+
+A. Scheduling test analysis and design tasks. 
+B. Initiating corrective actions.
+C. Monitoring progress and test coverage.
+D. Measuring and analyzing results.
+
+B	Q. 4: Which of the following BEST describes the difference between an inspection and a walkthrough?
+
+A. Both inspections and walkthroughs are led by the author.
+B. An inspection is led by a moderator and a walkthrough is led by the author.
+C. Both inspections and walkthroughs are led by a trained moderator.
+D. A walkthrough is led by the author. The author is not present during inspections.
+
+B	Q. 5: Where may functional testing be performed?
+
+A. At system and acceptance testing levels only. 
+B. At all test levels.
+C. At all levels above integration testing.
+D. At the acceptance testing level only.
+
+B	Q. 6: What is the MAIN objective when reviewing a software deliverable?
+
+A. To identify potential application failures by use of a test specification. 
+B. To identify defects in any software work product.
+C. To identify spelling mistakes in a requirements specification. 
+D. To identify standards inconsistencies in the code.
+
+A	Q. 7: Who would USUALLY perform debugging activities?
+
+A.Developers. 
+B. Analysts.
+C. Testers.
+D. Incident Managers.
+
+C	Q. 8: Which of the following would you NOT usually find on a software incident report?
+
+A. The name and/or organisational position of the person raising the problem. 
+B. Version of the Software Under Test.
+C. Suggestions as to how to fix the problem. 
+D. Actual and expected results.
+
+A	Q. 9: Which of the following defines the expected results of a test?
+
+A. Test case specification.
+B. Test design specification.
+C. Test procedure specification.
+D. Test results.
+
+B	Q. 10: Some tools are geared more for developer use. For the 5 tools listed, which statement BEST details those for developers
+
+i) Performance testing tools.
+ii) Coverage measurement tools.
+iii) Test comparators.
+iv) Dynamic analysis tools.
+v) Incident management tools.
+
+A. i, iii. and iv. are more for developers. 
+B. ii. and iv. are more for developers.
+C. ii, iii. and iv. are more for developers.
+D. ii. and iii. are more for developers.
+
+D	Q. 11: Which of the following is correct?
+
+A. Impact analysis assesses the effect on the system of a defect found in regression testing. 
+B. Impact analysis assesses the effect of a new person joining the regression test team.
+C. Impact analysis assesses whether or not a defect found in regression testing has been
+fixed correctly.
+D. Impact analysis assesses the effect of a change to the system to determine how much regression testing to do.
+
+A	Q. 12: As part of which test process do you determine the exit criteria?
+
+A. Test planning.
+B. Evaluating exit criteria and reporting. 
+C. Test closure.
+D. Test control.
+
+C	Q. 13: Given the following state transition diagram Which of the following series of state transitions contains an INVALID transition which may indicate a fault in the system design? 
+Exhibit:
+A. Login Browse Basket Checkout Basket Checkout Pay Logout. 
+B. Login Browse Basket Checkout Pay Logout.
+C. Login Browse Basket Checkout Basket Logout.
+D. Login Browse Basket Browse Basket Checkout Pay Logout.
+
+B	Q. 14: Which of the following is a MAJOR task of test implementation and execution?
+A. Measuring and analyzing results.
+B. Reporting discrepancies as incidents.
+C. Identifying test conditions or test requirements.
+D. Assessing if more tests are needed.
+
+B	Q. 15: What is beta testing?
+
+A. Testing performed by potential customers at the developers location. 
+B. Testing performed by potential customers at their own locations.
+C. Testing performed by product developers at the customer's location. 
+D. Testing performed by product developers at their own locations.
+
+B	Q. 16: Given the following fragment of code, how many tests are required for 100%
+decision coverage?
+
+if width > length then
+biggest_dimension = width
+if height > width then
+biggest_dimension = height end_if
+else
+biggest_dimension = length if height > length
+then
+biggest_dimension = height end_if
+end_if
+
+A. 3
+B. 4
+C. 2
+D. 1
+
+C	Q. 17: You have designed test cases to provide 100% statement and 100% decision coverage for the following fragment of code.
+
+if width > length then
+biggest_dimension = width else
+biggest_dimension = length end_if
+
+The following has been added to the bottom of the code fragment above.
+
+print "Biggest dimension is " & biggest_dimension print "Width: " & width
+print "Length: " & length
+
+How many more test cases are required?
+
+A. One more test case will be required for 100 % decision coverage.
+B. Two more test cases will be required for 100 % statement coverage, one of which will be used to provide 100% decision coverage.
+C. None, existing test cases can be used.
+D. One more test case will be required for 100" statement coverage.
+
+A	Q. 18: A thermometer measures temperature in whole degrees only. If the temperature falls below 18 degrees, the heating is switched off. It is switched on again when the temperature reaches 21 degrees. What are the best values in degrees to cover all equivalence partitions?
+
+A. 15, 19 and 25. 
+B. 17, 18 and19. 
+C. 18, 20 and22.
+D. 16, 26 and 32.
+
+A	Q. 19: Which activity in the fundamental test process creates test suites for efficient test execution?
+
+A. Implementation and execution. 
+B. Planning and control.
+C. Analysis and design.
+D. Test closure.
+
+A	Q. 20: Which of the following is TRUE?
+
+A. Confirmation testing is testing fixes to a set of defects and Regression testing is testing to establish whether any defects have been introduced as a result of changes.
+B. Confirmation testing is testing to establish whether any defects have been introduced as a result of changes and Regression testing is testing fixes to a set of defects.
+C. Confirmation testing and Regression testing are both testing to establish whether any defects have been introduced as a result of changes.
+D. Confirmation testing and Regression testing are both testing fixes to a set of defects.
+
+A	Q. 21: Given the following decision table: Which of the following test cases and expected results is VALID?
+
+A. 23 year old in insurance class A Premium is 0 and excess is,500. 
+B. 51 year old in insurance class C Premium is 0 and excess is 00.
+C. 31 year old in insurance class B Premium is 0 and excess is ,500.
+D. 43 year old in insurance class C Premium is 0 and excess is ,000.
+
+A	Q. 22: When should configuration management procedures be implemented?
+
+A. During test planning.
+B. During test analysis.
+C. During test execution.
+D. When evaluating exit criteria
+
+B	Q. 23: Which of the following are characteristic of regression testing ?
+
+i) Regression testing is run ONLY once
+ii) Regression testing is used after fixes have been made 
+iii) Regression testing is often automated
+iv) Regression tests need not be maintained
+
+Options:
+
+A. ii, iv. 
+B. ii, iii.
+C. i, iii, iv. 
+D. iii.
+
+C	Q. 24: A wholesaler sells printer cartridges. The minimum order quantity is 5. There is a 20% discount for orders of 100 or more printer cartridges. You have been asked to prepare test cases using various values for the number of printer cartridges ordered. Which of the following groups contain three test inputs that would be generated using Boundary Value Analysis?
+
+A. 5, 6, 20
+B. 4, 5, 80
+C. 4, 5, 99
+D. 1, 20, 100
+
+D	Q. 25: Which of the following activities should be performed during the selection and implementation of a testing tool?
+
+i) Investigate the organisation's test process. ii) Conduct a proof of concept.
+iii) Implement the selected tool on a project behind schedule to save time.
+iv) Identify coaching and mentoring requirements for the use of the selected tool.
+
+Options:
+
+A. i, ii, iii. 
+B. ii, iii, iv. 
+C. i, iii, iv. 
+D. i, ii, iv.
+
+B	Q. 26: What is the MAIN benefit of designing tests early in the life cycle?
+
+A. It is cheaper than designing tests during the test phases.
+B. It helps prevent defects from being introduced into the code.
+C. Tests designed early are more effective than tests designed later. 
+D. It saves time during the testing phases when testers are busy.
+
+C	Q. 27: Which of the following benefits are MOST likely to be achieved by using test tools?
+
+i) Easy to access information about tests and testing. 
+ii) Reduced maintenance of testware.
+iii) Easy and cheap to implement.
+iv) Greater consistency of tests.
+
+Options:
+
+A. ii and iv 
+B. ii and iii 
+C. i and iv 
+D. i and iii
+
+B	Q. 28: What is the KEY difference between preventative and reactive approaches to testing?
+
+A. Preventative tests and reactive tests are designed as early as possible.
+B. Preventative tests are designed early; reactive tests are designed after the software has been produced.
+C. Preventative testing is always analytical; reactive testing is always heuristic.
+D. Preventative tests are designed after the software has been produced; reactive tests are designed early in response to review comments.
+
+A	Q. 29: What is the purpose of exit criteria?
+
+A. To define when a test level is complete. 
+B. To determine when a test has completed.
+C. To identify when a software system should be retired.
+D. To determine whether a test has passed.
+
+D	Q. 30: What determines the level of risk?
+
+A. The cost of dealing with an adverse event if it occurs. 
+B. The probability that an adverse event will occur.
+C. The amount of testing planned before release of a system.
+D. The likelihood of an adverse event and the impact of the event.
+
+C	Q. 31: With which of the following categories is a test comparator tool USUALLY
+associated?
+
+A. Tool support for performance and monitoring. 
+B. Tool support for static testing.
+C. Tool support for test execution and logging.
+D. Tool support for the management of testing and tests.
+
+B	Q. 32: Which activities form part of test planning?
+
+i) Developing test cases.
+ii) Defining the overall approach to testing.
+iii) Assigning resources.
+iv) Building the test environment
+v) Writing test conditions.
+
+A. i, ii & iv are true, iii & v are false. 
+B. ii & iii are true, i, iv & v are false. 
+C. iv & v are true, i, ii & iii are false. 
+D. i, ii & iii are true iv & v are false.
+
+A	Q. 33: Match the following terms and statements.
+1.Decision Table Testing
+2.Decision Testing
+3.State Transition Testing
+4.Exploratory Testing
+
+W. Testing carried out w boxes to achieve specific test objectives, possibly to complement structured testing.
+X. A test technique used which may be used to verify different system re depending on current conditions or previous history.
+Y. A test technique which combines combinations of inputs that might not otherwise have
+been exercised during testing.
+Z. A form of control flow testing based on decision outcomes.
+
+Options:
+
+A. 1Y, 2Z, 3X, 4W. 
+B. 1X ,2W, 3Z, 4Y. 
+C. 1Z, 2X, 3W, 4Y. 
+D. 1Z, 2Y, 3X, 4W.
+
+A	Q. 34: Which type of test design techniques does the following statement best describe a procedure to derive test cases based on the specification of a component?
+
+A. Black Box Techniques. 
+B. White Box Techniques. 
+C. Glass Box Techniques.
+D. Experience Based Techniques.
+
+D	Q. 35: For which of the following would a static analysis tool be MOST useful?
+
+A. Supporting reviews.
+B. Validating models of the software.
+C. Testing code executed in a special test harness.
+D. Enforcement of coding standards.
+
+B	Q. 36: Which of the following types of defects is use case testing MOST LIKELY to uncover?
+
+i) Defects in the process flows during real-world use of the system. 
+ii) Defects in the interface parameters in integration testing.
+iii) Integration defects caused by the interaction and interference of different components.
+iv) Defects in the system as it transitions between one state and another.
+
+A. ii, iii. 
+B. i, iii. 
+C. iii, iv. 
+D. i, ii
+
+C	Q. 37: Which of the following is MOST important in the selection of a test approach?
+A. Availability of tools to support the proposed techniques. 
+B. The budget allowed for training in proposed techniques.
+C. Available skills and experience in the proposed techniques. 
+D. The willingness of the test team to learn new techniques.
+
+C	Q. 38: Which of the following is a benefit of test independence?
+
+A. It does not require familiarity with the code.
+B. It is cheaper than using developers to test their own code. 
+C. It avoids author bias in defining effective tests.
+D. Testers are better at finding defects than developers.
+
+A	Q. 39: The above diagram represents the following paths through the code.
+A. vwy
+B. vwz 
+C. vxy 
+D. vxz
+
+What is the MINIMUM combination of paths required to provide full statement coverage? 
+Exhibit:
+
+A. A
+B. ABD
+C. ABCD 
+D. ACD
+
+C	Q. 40: Which of the following is MOST characteristic of specification based (black-box)
+techniques?
+
+A. Test cases can be easily automated.
+B. Test cases are independent of each other.
+C. Test cases are derived systematically from models of the system. 
+D. Test cases are derived systematically from the delivered code.
